@@ -13,16 +13,4 @@ else{
 	image_speed = 0;
 }
 
-show_debug_message(angle)
-if (angle >= 335 || angle < 45){
-	sprite_index = s_right;
-}
-else if (angle >= 45 && angle < 135){
-	sprite_index = s_up;
-}
-else if (angle >= 135 && angle < 225){
-	sprite_index = s_left;
-}
-else{
-	sprite_index = s_down;	
-}
+Movement(self)

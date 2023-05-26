@@ -6,7 +6,14 @@ image_yscale = v_scale;
 xx = x;
 yy = y;
 
-angle = 260;
+sprites =
+{
+    left : p_left,
+    right : p_right,
+	up : p_up,
+    down : p_down
+};
 
+angle = 260;
 
 walk_speed = 5;

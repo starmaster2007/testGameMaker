@@ -6,6 +6,7 @@ image_speed = 1;
 xx = x;
 yy = y;
 walking = false;
+attack_timer = 0;
 sprites_walk =
 {
     left : player_walk_left,

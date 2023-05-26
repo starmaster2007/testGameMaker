@@ -2,9 +2,8 @@ if (mouse_check_button(mb_right)){
 	xx = mouse_x;
 	yy = mouse_y;
 }
-if (mouse_check_button(mb_left)){
-	MeleAttack(self)
-	show_debug_message("pressed");
+if (mouse_check_button_pressed(mb_left)){
+	attack_timer = 30;
 }
 
 if (point_distance(x,y,xx,yy) > walk_speed){
@@ -18,5 +17,9 @@ else{
 	yy = y;
 	speed = 0;
 }
-
-Movement(self)
+if (attack_timer > 0){
+	attack_timer --;
+	MeleAttack(self)
+}else{
+	Movement(self)
+}

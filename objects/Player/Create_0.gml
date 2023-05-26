@@ -1,5 +1,5 @@
 depth = 3;
-v_scale = 3;
+v_scale = 1;
 image_xscale = v_scale;
 image_yscale = v_scale;
 image_speed = 1;

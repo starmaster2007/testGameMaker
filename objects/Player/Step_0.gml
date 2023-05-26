@@ -19,6 +19,8 @@ else{
 }
 if (attack_timer > 0){
 	attack_timer --;
+	var _near_enemy = instance_nearest(x,y,Skeleton);
+	angle = point_distance(x,y,_near_enemy.x,_near_enemy.y);
 	MeleAttack(self)
 }else{
 	Movement(self)

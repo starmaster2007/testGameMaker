@@ -30,8 +30,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "skeleton",
-    "path": "folders/Sprites/skeleton.yy",
+    "name": "idle",
+    "path": "folders/Sprites/skeleton/idle.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

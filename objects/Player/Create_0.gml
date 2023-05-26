@@ -20,7 +20,13 @@ sprites_idle =
 	up : player_idle_up,
     down : player_idle_down
 };
-
+sprites_attack =
+{
+    left : player_attack_left,
+    right : player_attack_right,
+	up : player_attack_up,
+    down : player_attack_down
+};
 
 angle = 260;
 

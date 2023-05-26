@@ -19,3 +19,10 @@ sprites_idle =
 	up : skeleton_idle_left,
     down : skeleton_idle_right
 };
+sprites_attack =
+{
+    left : skeleton_attack_left,
+    right : skeleton_attack_right,
+	up : skeleton_attack_left,
+    down : skeleton_attack_right
+}

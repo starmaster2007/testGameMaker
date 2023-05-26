@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "player",
-    "path": "folders/Sprites/player.yy",
+    "name": "attack",
+    "path": "folders/Sprites/player/attack.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

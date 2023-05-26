@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_idle",
-    "path": "sprites/s_idle/s_idle.yy",
+    "name": "skeleton_idle_right",
+    "path": "sprites/skeleton_idle_right/skeleton_idle_right.yy",
   },
   "spriteMaskId": null,
   "visible": true,

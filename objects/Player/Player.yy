@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "p_down",
-    "path": "sprites/p_down/p_down.yy",
+    "name": "player_walk_down",
+    "path": "sprites/player_walk_down/player_walk_down.yy",
   },
   "spriteMaskId": null,
   "visible": true,

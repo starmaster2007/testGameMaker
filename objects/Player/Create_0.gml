@@ -3,6 +3,7 @@ v_scale = 1;
 image_xscale = v_scale;
 image_yscale = v_scale;
 image_speed = 1;
+hp = 100;
 xx = x;
 yy = y;
 walking = false;
@@ -31,4 +32,4 @@ sprites_attack =
 
 angle = 260;
 
-walk_speed = 5;
+walk_speed = 2;

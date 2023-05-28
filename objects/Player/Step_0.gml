@@ -4,6 +4,7 @@ if (mouse_check_button(mb_right)){
 }
 if (mouse_check_button_pressed(mb_left)){
 	attack_timer = 30;
+	hp -= 10;
 }
 
 if (point_distance(x,y,xx,yy) > walk_speed){
@@ -24,4 +25,8 @@ if (attack_timer > 0){
 	MeleAttack(self)
 }else{
 	Movement(self)
+}
+if (hp == 0){
+	show_message("Game Over!")
+	game_end();
 }
